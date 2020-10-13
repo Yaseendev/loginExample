@@ -86,8 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Container(
+    return Container(
         width: MediaQuery.of(context).size.width,
         padding: EdgeInsets.only(bottom: 80),
         child: Column(
@@ -190,7 +189,6 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ],
         ),
-      ),
-    );
+      );
   }
 }
